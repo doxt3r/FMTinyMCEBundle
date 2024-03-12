@@ -1,0 +1,189 @@
+repo_name: doxt3r/FMTinyMCEBundle
+report_id: 2ee6c1d83bc44fc3d5a19ba199e05dd4
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-12T11:43:43+00:00'
+requested_by: helios-ag
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle
+  detection_source: Repo Metadata
+- name: Symfony
+  description: A PHP full-stack web framework
+  website_url: http://symfony.com/
+  version: '4.4'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2024-01-11 00:40:29.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/.github/workflows/test.yaml
+  detection_source: ".github/workflows/test.yaml"
+  last_updated_by: Al Ganiev
+  last_updated_on: 2024-01-11 00:40:29.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2015-10-23 17:18:12.000000000 Z
+- name: matthiasnoback/symfony-config-test
+  description: Library for testing user classes related to the Symfony Config Component
+  package_url: https://packagist.org/matthiasnoback/symfony-config-test
+  version: '4.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2024-01-11 00:40:29.000000000 Z
+- name: matthiasnoback/symfony-dependency-injection-test
+  description: Library for testing user classes related to the Symfony Dependency
+    Injection Component
+  package_url: https://packagist.org/matthiasnoback/symfony-dependency-injection-test
+  version: '4.1'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2024-01-11 00:40:29.000000000 Z
+- name: symfony/asset
+  description: Manages URL generation and versioning of web assets such as CSS stylesheets
+  package_url: https://packagist.org/symfony/asset
+  version: '4.4'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2024-01-11 00:40:29.000000000 Z
+- name: symfony/form
+  description: Allows to easily create, process and reuse HTML forms
+  package_url: https://packagist.org/symfony/form
+  version: '4.4'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2024-01-11 00:40:29.000000000 Z
+- name: symfony/framework-bundle
+  description: Provides a tight integration between Symfony components and the Symfony
+    full-stack framework
+  package_url: https://packagist.org/symfony/framework-bundle
+  version: '4.4'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2024-01-11 00:40:29.000000000 Z
+- name: symfony/phpunit-bridge
+  description: Provides utilities for PHPUnit
+  package_url: https://packagist.org/symfony/phpunit-bridge
+  version: 7.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2024-01-11 00:40:29.000000000 Z
+- name: symfony/templating
+  description: Provides all the tools needed to build any kind of template system
+  package_url: https://packagist.org/symfony/templating
+  version: '4.4'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2024-01-11 00:40:29.000000000 Z
+- name: symfony/twig-bundle
+  description: Provides a tight integration of Twig into the Symfony full-stack framework
+  package_url: https://packagist.org/symfony/twig-bundle
+  version: '4.4'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2024-01-11 00:40:29.000000000 Z
+- name: tinymce/tinymce
+  description: Web based JavaScript HTML WYSIWYG editor control
+  package_url: https://packagist.org/tinymce/tinymce
+  version: 5.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/doxt3r/FMTinyMCEBundle/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Al Ganiev
+  last_updated_on: 2022-02-03 06:10:47.000000000 Z
